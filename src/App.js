@@ -6,7 +6,7 @@ export default function App() {
     <>
       <Header />
       <Article />
-      <h1>Blog react js</h1>
+      
     </>
   );
 }

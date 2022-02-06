@@ -1,17 +1,23 @@
+import logosvg from  '../../svg/logo.svg'
 
 const Header = () => {
+    const descLogo = "Essa e a logo do Blog."
+
+
     return (
         <> 
-            <header>
+            <header className="flex-space-between">
                 <div className="logo">
-                    header
+                    <img src={logosvg} alt={descLogo} />
                 </div>
                 <div className="search">
-
+                    <input type="text" name="search" className="input-search" />
                 </div>
-                <div className="menu">
-
-                </div>
+                <ul className="menu">
+                    <li><a href="/" className="nav-link"> Categories</a></li>
+                    <li><a href="/" className="nav-link"> About</a></li>
+                    <li><a href="/" className="nav-link"> Contact</a></li>
+                </ul>
             </header>
         </>
     )
