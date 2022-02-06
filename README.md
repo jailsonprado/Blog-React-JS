@@ -8,6 +8,9 @@
 # Run Aplication
 - 'npm start''
 
+# install packages npm
+- 'npm install'
+
 # buiild production
 - 'npm run build'
 
