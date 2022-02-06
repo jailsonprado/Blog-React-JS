@@ -9,7 +9,7 @@
 - 'npm start''
 
 # buiild production
-- 'npm run buiild''
+- 'npm run build'
 
 
 
